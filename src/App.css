@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.map-container {
+  height: 90vh;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.marker-cluster-small {
+  background-color: #158AED !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.marker-cluster-small div {
+  background-color: #158AED !important;
+  color: #FFF;
+  font-weight: bold !important;
+}
+
+.marker-cluster-medium {
+  background-color: #158AED !important;
+}
+
+.marker-cluster-medium div {
+  background-color: #158AED !important;
+  color: #FFF;
+  font-weight: bold !important;
+}
+
+.marker-cluster-large {
+  background-color: #158AED !important;
+}
+
+.marker-cluster-large div {
+  background-color: #158AED !important;
+  color: #FFF;
+  font-weight: bold !important;
+}
+
+.leaflet-control-attribution {
+  font-size: 0.7rem;
+}
+
+.header {
+  height: 6vh;
+}
+
+.footer {
+  height: 4vh;
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 600px) {
+  .map-container {
+    height: 86vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header {
+    height: 8vh;
+    padding: 1rem 1rem;
+  }
+
+  .footer {
+    height: 6vh;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* change color of popup leaflet to black and font in white */
+.leaflet-popup-content-wrapper {
+  font-size: 0.8rem;
+  background: #52617F;
+  color: #FFF;
 }
