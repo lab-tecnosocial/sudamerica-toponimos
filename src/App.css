@@ -61,9 +61,9 @@
   }
 }
 
-/* change color of popup leaflet to black and font in white */
+/* color de popup */
 .leaflet-popup-content-wrapper {
   font-size: 0.8rem;
-  background: #52617F;
+  background: #795548;
   color: #FFF;
 }

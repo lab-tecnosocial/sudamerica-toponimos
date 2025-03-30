@@ -9,14 +9,13 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#158AED",
+        main: "#795548",
       },
     },
   }
   );
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
       <BrowserRouter>
         <Inicio />
       </BrowserRouter>

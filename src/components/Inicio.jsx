@@ -1,38 +1,16 @@
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
+
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Mapa from './Mapa';
 import Proyecto from './Proyecto';
 import LogoNoTopos from '../assets/logo-no-topos.png';
 import { Routes, Route } from 'react-router';
-import { NavLink } from 'react-router';
-
+import Header from './Header';
 export default function Inicio() {
   return (
     <>
-      <AppBar position="static" >
-        <Toolbar className="header" sx={{ justifyContent: 'space-between' }}>
-          <Typography variant="h5" color="inherit" >
-            <b>Topónimos en Sudamérica</b>
-          </Typography>
-          <Box >
-            <Button color="inherit" size="large"
-              component={NavLink}
-              to="/"
-              style={{ textDecoration: 'none', color: 'inherit' }}
-            >Mapa</Button>
-            <Button color="inherit" size="large"
-              component={NavLink}
-              to="/proyecto"
-              style={{ textDecoration: 'none', color: 'inherit' }}
-
-            >El proyecto</Button>
-          </Box>
-        </Toolbar>
-      </AppBar >
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Mapa />} />
@@ -50,3 +28,5 @@ export default function Inicio() {
     </>
   );
 }
+
+
