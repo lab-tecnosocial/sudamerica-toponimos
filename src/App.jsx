@@ -16,7 +16,7 @@ function App() {
   );
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Inicio />
       </BrowserRouter>
     </ThemeProvider>
