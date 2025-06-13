@@ -5,20 +5,31 @@
     z-index: 1000;
 }
 
+/* Estilo para el filtro de tema */
+.tema-filter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 /* Estilos para la leyenda */
 .map-legend {
     position: absolute;
     bottom: 20px;
     left: 20px;
     /* Cambiado de right a left */
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     max-height: 500px;
     overflow-y: auto;
-    width: 220px;
+    width: 180px;
     font-family: 'Roboto', sans-serif;
     /* Añadimos la fuente Roboto */
 }

@@ -3,6 +3,13 @@ import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import MiMarker from './MiMarker';
 import data from '../data/datos.json';
 import './Mapa.css';
+import L from 'leaflet';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
 
 // Definimos los colores para cada familia lingüística (lista actualizada)
 const FAMILY_COLORS = {
@@ -33,8 +40,16 @@ const FAMILY_COLORS = {
     'default': '#7D7D7D', // Color por defecto
 };
 
+var southAmericaBounds = L.latLngBounds(
+    L.latLng(-66.0, -92.0), // suroeste (10 menos lat, 10 menos lon)
+    L.latLng(23.0, -24.0)   // noreste (10 más lat, 10 más lon)
+);
+
 export default function Mapa() {
     const [filteredData, setFilteredData] = useState(data);
+    const [selectedTema, setSelectedTema] = useState('Todos');
+    const [selectedFamilia, setSelectedFamilia] = useState("Todas");
+
     // Generar un mapa de colores para todos los puntos basado en su familia
     const colorMap = useMemo(() => {
         const map = new Map();
@@ -95,6 +110,24 @@ export default function Mapa() {
         return sortedFamilies;
     }, []);
 
+    // Obtener todos los temas únicos para el filtro
+    const uniqueTemas = useMemo(() => {
+        const temas = new Set();
+
+        // Procesar los datos para extraer temas únicos
+        data.forEach(item => {
+            if (item.tema && item.tema.trim() !== '') {
+                temas.add(item.tema);
+            }
+        });
+
+        // Convertir a array y ordenar
+        const temasArray = Array.from(temas).sort();
+
+        // Agregar "Todos" al principio del array
+        return ["Todos", ...temasArray];
+    }, []);
+
     // Función para filtrar por tema y familia
     const handleFilter = (filters) => {
         const { tema, familia } = filters;
@@ -123,11 +156,95 @@ export default function Mapa() {
         setFilteredData(filtered);
     };
 
+    // Función para manejar el cambio de tema
+    const handleTemaChange = (event) => {
+        const tema = event.target.value;
+        setSelectedTema(tema);
+
+        // Filtrar los datos según el tema seleccionado
+        const filtered = tema === "Todos" ? data : data.filter(item => item.tema === tema);
+        setFilteredData(filtered);
+    };
+
+    // Función para contar topónimos únicos
+    const countUniqueToponyms = (data) => {
+        const uniqueKeys = new Set();
+        data.forEach(item => {
+            const key = `${item.municipio}-${item.lat}-${item.lon}`;
+            uniqueKeys.add(key);
+        });
+        return uniqueKeys.size;
+    };
+
     return (
         <div style={{ position: 'relative' }} className="map-container">
+            {/* Filtro de Tema */}
+            <div className="tema-filter">
+                <FormControl variant="outlined" size="small">
+                    <InputLabel sx={{
+                        fontSize: '12px',
+                        fontFamily: "'Roboto', sans-serif",
+                        backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                        padding: '0 5px'
+                    }}>Tema</InputLabel>
+                    <Select
+                        value={selectedTema}
+                        onChange={handleTemaChange}
+                        label="Tema"
+                        MenuProps={{
+                            PaperProps: {
+                                style: {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                                    maxHeight: 300,
+                                }
+                            }
+                        }}
+                        sx={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                            minWidth: '180px',
+                            fontSize: '12px',
+                            fontFamily: "'Roboto', sans-serif",
+                            '& .MuiSelect-select': {
+                                fontSize: '12px',
+                                padding: '8px 14px'
+                            },
+                            '& .MuiOutlinedInput-notchedOutline': {
+                                borderColor: 'rgba(0, 0, 0, 0.2)'
+                            },
+                            '&:hover .MuiOutlinedInput-notchedOutline': {
+                                borderColor: 'rgba(0, 0, 0, 0.3)'
+                            }
+                        }}
+                    >
+                        {uniqueTemas.map((tema) => (
+                            <MenuItem
+                                key={tema}
+                                value={tema}
+                                sx={{
+                                    fontSize: '12px',
+                                    fontFamily: "'Roboto', sans-serif",
+                                    backgroundColor: 'transparent',
+                                    '&.Mui-selected': {
+                                        backgroundColor: 'rgba(25, 118, 210, 0.25)'
+                                    },
+                                    '&:hover': {
+                                        backgroundColor: 'rgba(0, 0, 0, 0.1)'
+                                    }
+                                }}
+                            >
+                                {tema}
+                            </MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
+            </div>
+
             <MapContainer
                 center={[-8.700, -72.082]}
                 zoom={5}
+                minZoom={3}
+                maxBounds={southAmericaBounds}
+                maxBoundsViscosity={1.0}
                 style={{ height: '100%', width: '100%' }}>
                 <TileLayer
                     url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
@@ -145,10 +262,11 @@ export default function Mapa() {
                 })}
             </MapContainer>
 
+
             {/* Leyenda de Familias Lingüísticas */}
             <div className="map-legend">
                 <h4>Familias Lingüísticas</h4>
-                <div className="legend-counter">Mostrando: {filteredData.length} topónimos</div>
+                <div className="legend-counter">Mostrando: {countUniqueToponyms(filteredData)} topónimos</div>
                 <div className="legend-item" onClick={() => setFilteredData(data)}>
                     <span className="legend-color" style={{ background: 'linear-gradient(45deg, #FF5733, #33FF57, #3357FF, #FF33A8)' }}></span>
                     <span className="legend-label">Todos</span>
@@ -165,6 +283,6 @@ export default function Mapa() {
                     </div>
                 ))}
             </div>
-        </div>
+        </div >
     );
 }

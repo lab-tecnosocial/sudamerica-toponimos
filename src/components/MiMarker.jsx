@@ -20,6 +20,7 @@ export default function MiMarker({ item, color }) {
         >
             <Popup>
                 <p><b>Nombre de municipio</b>: {item.municipio}</p>
+                <p><b>Tema</b>: {item.tema}</p>
                 <p><b>Familia lingüística</b>: {item.familia}</p>
                 <p><b>Lengua</b>: {item.lengua}</p>
                 {
