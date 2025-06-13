@@ -4,3 +4,76 @@
     top: 20px;
     z-index: 1000;
 }
+
+/* Estilos para la leyenda */
+.map-legend {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    /* Cambiado de right a left */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-height: 500px;
+    overflow-y: auto;
+    width: 220px;
+    font-family: 'Roboto', sans-serif;
+    /* Añadimos la fuente Roboto */
+}
+
+.map-legend h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid #999;
+}
+
+.legend-label {
+    font-size: 12px;
+    cursor: pointer;
+    /* Indica que es clickeable */
+    transition: color 0.2s;
+}
+
+.legend-label:hover {
+    color: #3388ff;
+    /* Color al pasar el mouse */
+    text-decoration: underline;
+}
+
+.legend-note {
+    font-size: 10px;
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px dashed #ddd;
+}
+
+.legend-counter {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 8px;
+    text-align: center;
+    font-style: italic;
+}
