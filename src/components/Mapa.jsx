@@ -11,32 +11,36 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 
-// Definimos los colores para cada familia lingüística (lista actualizada)
+// Definimos los colores para cada familia lingüística (esquema actualizado)
 const FAMILY_COLORS = {
-    'Indoeuropea': '#FF5733', // Naranja
-    'Chibcha': '#FF33A8', // Rosa
-    'Quechua': '#33FF57', // Verde
-    'No determinada': '#808080', // Gris
-    'Jaqi': '#3357FF', // Azul
-    'Indoeuropea, Afroasiática': '#FFFFFF', // Híbrido (contiene coma)
-    'Caribe': '#FF5E87', // Rosa claro
-    'Paleoeuropea': '#8B33FF', // Violeta
-    'Chocó': '#8FED54', // Verde claro
-    'Tupí-guaraní': '#33FFF6', // Cian
-    'Indoeuropea, Chibcha': '#FFFFFF', // Híbrido (contiene coma)
-    'Español, Aymara': '#FFFFFF', // Híbrido (contiene coma)
-    'Chibcha, Indoeuropea': '#FFFFFF', // Híbrido (contiene coma)
-    'Yuracaré-Moxeña': '#D2691E', // Marrón claro (ya no es híbrido)
-    'Indoeuropea, Chocó, Chibcha': '#FFFFFF', // Híbrido (contiene coma)
-    'Arawak, Indoeuropea': '#FFFFFF', // Híbrido (contiene coma)
-    'Arawak': '#F4FF33', // Amarillo
-    'No determinada, Paleoeuropea': '#FFFFFF', // Híbrido (contiene coma)
-    'Niger-Congo': '#AA336A', // Púrpura (ya no es híbrido)
-    'Lengua aislada': '#964B00', // Marrón
-    'Indoeuropea, Paleoeuropea': '#FFFFFF', // Híbrido (contiene coma)
-    'Español': '#33B5FF', // Celeste
-    'Besiro': '#FF8C33', // Naranja claro
-    'Hibrido': '#FFFFFF', // Blanco (para híbridos)
+    'Indoeuropea': '#ffeb3b', // Amarillo
+    'Chibcha': '#009688', // Verde azulado
+    'Quechua': '#ff7500', // Naranja
+    'No determinada': '#b7b7b7', // Gris
+    'Jaqi': '#ff00ff', // Magenta
+    'Afroasiática': '#f06292', // Rosa
+    'Caribe': '#76ff03', // Verde lima
+    'Paleoeuropea': '#00ffd7', // Cian
+    'Chocó': '#0021e6', // Azul
+    'Tupí-guaraní': '#6b00ef', // Violeta
+    'Yuracaré-Moxeña': '#83c400', // Verde oliva
+    'Arawak': '#9c27b0', // Púrpura
+    'Niger-Congo': '#487700', // Verde oscuro
+    'Lengua aislada': '#850043', // Granate
+    'Besiro': '#134f5c', // Azul petróleo
+    'Japónica': '#c18200', // Dorado
+    'Uru-Chipaya': '#34a853', // Verde
+    'Español': '#ffeb3b', // Amarillo (igual que Indoeuropea)
+    // Todas las familias híbridas (con coma) usan color blanco
+    'Indoeuropea, Afroasiática': '#ffffff',
+    'Indoeuropea, Chibcha': '#ffffff',
+    'Español, Aymara': '#ffffff',
+    'Chibcha, Indoeuropea': '#ffffff',
+    'Indoeuropea, Chocó, Chibcha': '#ffffff',
+    'Arawak, Indoeuropea': '#ffffff',
+    'No determinada, Paleoeuropea': '#ffffff',
+    'Indoeuropea, Paleoeuropea': '#ffffff',
+    'Hibrido': '#ffffff', // Blanco (para híbridos genéricos)
     'default': '#7D7D7D', // Color por defecto
 };
 
