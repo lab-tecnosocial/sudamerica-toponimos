@@ -45,6 +45,11 @@
   height: 4vh;
 }
 
+.leaflet-tile {
+  image-rendering: pixelated;
+  /* o crisp-edges */
+}
+
 /* media query for mobile */
 @media only screen and (max-width: 600px) {
   .map-container {

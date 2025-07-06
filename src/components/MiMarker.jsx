@@ -41,11 +41,11 @@ export default function MiMarker({ item, color }) {
             <CircleMarker
                 center={[item.lat, item.lon]}
                 radius={5}
-                fillOpacity={0.8}
+                fillOpacity={1}
                 color="white"
                 weight={1}
                 opacity={1}
-                fillColor={color || "blue"} // Usar el color proporcionado o azul por defecto
+                fillColor={color || "grey"} // Usar el color proporcionado o azul por defecto
             >
                 <Popup>
                     <p><b>Nombre de municipio</b>: {item.municipio}</p>
