@@ -3,9 +3,22 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { proyectoMarkdown } from '../data/proyectoContent.js';
+import rehypeRaw from 'rehype-raw';
+import proyectoMarkdown from '../data/proyecto.md?raw';
+import { useEffect } from 'react';
+
 
 function Proyecto() {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://public.flourish.studio/resources/embed.js';
+        script.async = true;
+        document.head.appendChild(script);
+
+        return () => {
+            document.head.removeChild(script);
+        };
+    }, []);
     return (
         <Container maxWidth="lg" sx={{ marginTop: '2rem', marginBottom: '2rem' }}>
             <Box sx={{
@@ -128,7 +141,7 @@ function Proyecto() {
                     fontWeight: 'bold'
                 }
             }}>
-                <Typography variant="h4" gutterBottom sx={{
+                <Typography variant="h1" gutterBottom sx={{
                     textAlign: 'center',
                     marginBottom: '2rem',
                     color: '#795548',
@@ -139,6 +152,7 @@ function Proyecto() {
                 </Typography>
                 <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
+                    rehypePlugins={[rehypeRaw]}
                 >
                     {proyectoMarkdown}
                 </ReactMarkdown>

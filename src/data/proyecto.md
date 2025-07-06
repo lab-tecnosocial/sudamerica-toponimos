@@ -1,10 +1,10 @@
-# **PRESENTACIÓN DEL MAPA** 
+# **Introducción**
 
 Las fronteras y la distribución territorial predominante ha relegado otras maneras de entender y construir de manera colectiva nuestros territorios, y han sido los mapas herramientas simbólicas de invisibilización de nuestras diversidades. Una de esas muchas diversidades que componen los espacios que habitamos es el lenguaje; el idioma en el que hablamos, el que usamos para escribir y, en el caso del mapa que acá presentamos, el lenguaje que utilizamos para nombrar nuestros territorios. Los nombres de lugar son “expresiones de cultura y biogeografía, tradición oral y literatura”[^1], desde donde se puede entender, a través de la historia, las diversas interpretaciones y usos que se le ha dado a cada espacio, junto con los lazos de afecto que las sociedades tejen con los lugares y los significados atribuidos a éstos. Los topónimos, como la ciencia los identifica, cambian con el tiempo, se adaptan a las migraciones humanas, a los conflictos de poder, o sencillamente son heredados, no sin antes mutar debido al contacto entre diferentes lenguas. El trámite entre un nombre y otro se da muchas veces por un consenso que fluye naturalmente con el tiempo y que depende de cómo el ser humano habita el espacio; otra veces es la imposición y las pugnas de poder lo que lleva a cambiar el nombre de un lugar de un día para otro.
 
 Los topónimos que en este mapa se presentan se encuentran a una escala de población humana, donde pequeños pueblos, municipios y ciudades se mapean otorgándoles un valor lingüístico dependiendo de su familia lingüística de procedencia. Cada familia posee un color identitario, y que al plasmar en conjunto generan una mancha, un territorio lingüístico. Son estos territorios los que nos interesa visibilizar y transmitir; sensibilizar sobre su existencia. A su vez, cada topónimo cuenta una historia, un motivo del origen de su nombre y es por eso que esa información también está disponible al interactuar con cada punto en el mapa. Queremos con este trabajo y la manera en la que lo presentamos mostrar la todavía latente diversidad latinoamericana que se evidencia en el lenguaje. La todavía presente toponimia que tiene origen en lenguas nativas del continente latinoamericano también es un foco de nuestra atención, en donde tiempo atrás existió un tejido toponímico, una mnemotecnia del paisaje, un facilitador descriptivo de la geografía y usos del suelo que sobrevive, respirando pacientemente. Este mapa es una invitación a conocer un poco de lo que fue esa cartografía mental colectiva, pues estudiar los topónimos aisladamente uno del otro no ayuda a identificar la amplia red de relaciones territoriales y culturales tejidas, contrario a  cuando se estudian de manera interrelacionada. También queremos concientizar sobre cómo nos relacionamos con el panorama actual toponímico y que la acción toponímica y el acto de nombrar los lugares es un ejercicio político y comunitario que debe ser tomado en cuenta para el debido agenciamiento de los lugares que habitamos. 
 
-# **¿QUÉ SON LOS TOPÓNIMO?**
+# **¿Qué son los topónimos?**
 
 Nombrar el paisaje natural es uno de los actos más poderosos de apropiación del territorio y de construcción colectiva de los paisajes culturales. En cada nombre se revela un vínculo afectivo que, a lo largo del tiempo, se ha tejido entre las sociedades y la naturaleza: en los usos del suelo, en la forma de habitar el espacio y en las narrativas que construimos para explicar quiénes somos y de dónde venimos.
 
@@ -16,48 +16,80 @@ Un componente clave de todo topónimo es su origen lingüístico. Las palabras c
 
 Comprender el origen, el significado y la motivación detrás de un topónimo es una herramienta poderosa para conectarnos con el territorio que habitamos o visitamos. Nos invita a reconocer la historia profunda del lugar, a escuchar las voces que lo nombraron por primera vez, y a entender que cada nombre guarda una historia, una lengua y una forma de ver el mundo.
 
+# **Herencia de las culturas nativas**
+
 Lo que hemos heredado de las culturas nativas se refleja con fuerza en los topónimos de numerosos municipios de Colombia y Bolivia, donde nombres en quechua, guaraní, aymara y otras lenguas originarias marcan el paisaje como huellas vivas de otras formas de nombrar, conocer y habitar el territorio. Estos nombres no son simples etiquetas geográficas: contienen memorias colectivas, cosmovisiones y vínculos con la naturaleza que han resistido siglos de imposición colonial. Nombrar un lugar en una lengua indígena es también narrar una historia, invocar un saber y afirmar una presencia. Sin embargo, el uso cotidiano de estos topónimos coexiste con el silenciamiento sistemático de las lenguas que los originaron, frecuentemente desplazadas por políticas lingüísticas monolingües, racistas y extractivistas. Desde una postura lingüística crítica y anticolonial, es urgente cuestionar cómo el Estado y las instituciones reproducen esta violencia simbólica al borrar el sentido profundo de estos nombres, apropiándose de su forma pero no de su contenido.
 
-En este contexto, el acto de renombrar un lugar suele estar vinculado a la ocupación del territorio por otro pueblo, y tanto la sustitución de un nombre originario como la persistencia de un topónimo ancestral han permitido investigaciones histórico-lingüísticas clave para esclarecer aspectos de pueblos que no dejaron testimonios escritos o cuyos registros aún no han sido descifrados (Von, 2017).
-
+En este contexto, el acto de renombrar un lugar suele estar vinculado a la ocupación del territorio por otro pueblo, y tanto la sustitución de un nombre originario como la persistencia de un topónimo ancestral han permitido investigaciones histórico-lingüísticas clave para esclarecer aspectos de pueblos que no dejaron testimonios escritos o cuyos registros aún no han sido descifrados (Von, 2017).  
 Además, como explica Beth Williamson (2023), muchos nombres de lugares que originalmente estaban en lenguas indígenas fueron reemplazados como parte de un proceso de nombrar o renombrar el territorio. Este acto no fue casual, sino una herramienta clave para extender el control sobre los espacios físicos y sobre las poblaciones que los habitaban.
 
 Reconocer, valorar, rescatar y difundir  los topónimos indígenas no es solo una cuestión de respeto cultural, sino un acto profundamente político y pedagógico. Difundir su significado entre la población, especialmente en espacios educativos, es una forma concreta de avanzar hacia la descolonización del conocimiento, de devolver agencia a los pueblos indígenas y de reactivar el vínculo entre lengua, territorio e identidad. Visibilizar estas palabras originarias también puede despertar el interés por aprender y revitalizar las lenguas que las engendraron, contribuyendo a su transmisión intergeneracional. Promover mapas que expliquen el origen, el significado y la lengua de cada topónimo constituye una herramienta poderosa para transformar la forma en que se enseña la historia y se concibe el territorio. Los nombres indígenas nos interpelan: no son vestigios del pasado, sino presencias vivas que exigen ser escuchadas, comprendidas y respetadas en toda su profundidad lingüística, histórica y política.
 
-# **METODOLOGÍA** 
+# **Metodología**
 
-- Fuentes (wikipedia y otros textos y archivos) Esta investigación no presenta verdades absolutas.  
-- División en categorías (familia lingüística y tema)
+# 
 
-# **PANORAMA**
+A partir de entidades geográficas georepresentadas, se realizó una búsqueda en diversas fuentes etimológicas y se organizó una base datos, incluyendo algunas clasificaciones. A partir de esa base de datos se realizó un mapa interactivo. El mapa interactivo fue desarrollado mediante herramientas de código abierto. Se utilizó estándares HTML, CSS y JS, junto a React y Leaflet. Dado que no se contó con presupuesto para servidor, se hizo una web app que funcione solo en el cliente. Es una aplicación web accesible e interactiva que funciona tanto en escritorio como en celular.
 
-## **Hallazgos por tema**
+# **Hallazgos**
 
-En el caso de Bolivia, los topónimos se agrupan principalmente en torno a temas relacionados con el entorno natural y la memoria histórica. Las categorías más frecuentes son “Paisaje / Características naturales” (85 casos), “Otro topónimo” (88) y “Época / Hecho histórico” (78), lo que refleja una fuerte conexión con el territorio y los acontecimientos del pasado. También se destacan los nombres con origen religioso (37), así como aquellos que hacen referencia a flora (18), apodos o nombres humanos (14) y fauna (9). En menor medida, se identifican temas vinculados a la espiritualidad, usos o actividades humanas, y la categoría lugar, con pocos casos registrados. 
+## **Familias lingüísticas**
 
-Los hallazgos de topónimos en Colombia muestran una variedad de temas que reflejan diferentes aspectos del país. La mayoría de los nombres encontrados corresponden a la categoría “Otro topónimo” con 120 casos, seguida por “Apodos / Nombres humanos” con 87, y “Paisaje / Características naturales” con 62\. También hay nombres relacionados con lo “Religioso” (34), las “Comunidades” (33) y la “Flora” (27), lo que muestra la importancia de la cultura, la gente y la naturaleza en la forma de nombrar los lugares. Además, aparecen temas como “Espiritualidad” (23), “Usos / Actividades humanas” (22), y en menor cantidad “Fauna” (9), “Lugar” (7) y “Época / Hecho histórico” (6). 
+<div class="flourish-embed flourish-chart" data-src="visualisation/24109823"></div>
 
-Tanto en Bolivia como en Colombia se revelan similitudes  en las limitaciones en la documentación y análisis de los nombres de lugar. Por ejemplo, en ambos países las categorías más frecuentes incluyen “Otros topónimos”, una etiqueta poco precisa que podría ocultar la riqueza y diversidad real de los topónimos, lo que señala que estos son datos aproximados que pueden dar pie a siguientes investigaciones.   
+Este gráfico revela de manera clara la profunda transformación lingüística que ha sufrido el paisaje toponímico de ambos países. En él se observa una notoria hegemonía de la familia indoeuropea, que agrupa a cerca de 475 topónimos, evidenciando el peso del proceso colonial hispánico en la resignificación del territorio a través del lenguaje. Esta sobresaliente presencia de nombres de origen indoeuropeo, en su mayoría castellanos, refleja no solo una estrategia de control territorial durante la colonia, sino también la imposición simbólica de nuevas identidades sobre geografías previamente nombradas en lenguas indígenas.
+
+A pesar de esta fuerte dominancia colonial, el gráfico también muestra la persistencia de importantes bloques lingüísticos originarios. La familia chibcha, con aproximadamente 190 topónimos, representa una capa profunda de toponimia ancestral, particularmente en Colombia, donde los pueblos muiscas y otros grupos chibchanos dejaron una huella duradera en el nomenclátor geográfico. En el caso de Bolivia, destaca la familia quechua, con más de 80 registros, como testimonio de la expansión incaica y del arraigo cultural de esta lengua en el altiplano y los valles andinos. Asimismo, la familia jaqi, con alrededor de 55 topónimos, señala la presencia de lenguas como el aymara, vigentes en el sur de Perú y occidente de Bolivia.
+
+Otras familias lingüísticas como la afroasiática, caribe, chocó, tupí-guaraní, arawak y algunas más con menor representación, como yuracaré-moxeña, uru-chipaya, besiro y pano-tacanan, confirman la extraordinaria diversidad lingüística que caracterizaba a los territorios hoy conocidos como Colombia y Bolivia. En muchos casos, estas lenguas sobreviven en comunidades pequeñas o están en peligro de extinción, lo que convierte a la toponimia en uno de los últimos vestigios vivos de su existencia.
+
+En conjunto, el gráfico no solo es una representación cuantitativa de las raíces lingüísticas de los nombres de lugares, sino también una herramienta que permite entrever las disputas históricas por el territorio, la colonización simbólica del paisaje y la resistencia de las memorias indígenas. La coexistencia de nombres en lenguas coloniales y originarias nos recuerda que el territorio no es solo un espacio físico, sino también un campo de significados donde se inscriben las trayectorias históricas, culturales y políticas de los municipios.
+
+## **Lenguas**
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/24110480"></div>
+
+El gráfico sobre las lenguas de toponimia de municipios de Colombia y Bolivia revela una geografía profundamente marcada por procesos de colonización, resistencia y diversidad cultural. La lengua española, con diferencia, ocupa el primer lugar en la cantidad de topónimos registrados, lo que refleja el impacto abrumador de la colonización europea sobre la forma en que los territorios fueron nombrados y significados. Esta hegemonía toponímica no solo implicó la sustitución de nombres indígenas, sino también la imposición de una lógica simbólica distinta, vinculada al dominio político, religioso y económico colonial.
+
+Sin embargo, en medio de esta supremacía colonial, emergen con fuerza lenguas originarias que han logrado mantener su huella en la configuración territorial. Tal es el caso del muysccubun, la lengua del pueblo muisca, que constituye la segunda mayor fuente de toponimia, principalmente en el altiplano cundiboyacense de Colombia. Con cerca de 200 topónimos, su presencia evidencia una resistencia cultural que, a pesar de la pérdida de la lengua como vehículo de comunicación cotidiana, persiste a través de los nombres de municipios.
+
+Le siguen el quechua y el aymara, lenguas fundamentales en el contexto boliviano, que también se proyectan en algunas regiones andinas de Colombia. Estos topónimos no son simples vestigios del pasado incaico o preincaico, sino parte de una memoria territorial viva, sostenida por comunidades que aún hoy habitan esos espacios y mantienen viva su lengua, su cosmovisión y su relación con la tierra.
+
+Más allá de las lenguas dominantes, el gráfico despliega una impresionante constelación de lenguas indígenas y extranjeras que han contribuido, en menor escala, a la toponimia de ambos países. Lenguas como el emberá, guaraní, panche, chipaya, chiquitano, guarayo, entre muchas otras, permiten reconstruir el mosaico lingüístico que existía en estos territorios antes de la colonización. Muchas de estas lenguas están actualmente en peligro de extinción, lo que otorga a los topónimos un carácter patrimonial: son, en muchos casos, los últimos vestigios vivos de sistemas lingüísticos y culturales enteros.
+
+Asimismo, el gráfico revela presencias más inesperadas, como nombres derivados del hebreo, árabe, euskera, bambarà-mandé, japonés, portugués o yoruba. Estas presencias, aunque marginales en número, dan cuenta de migraciones forzadas o voluntarias, del comercio colonial, de rutas esclavistas o de comunidades específicas que dejaron su huella en el paisaje lingüístico.
+
+En conjunto, este gráfico no es solo una clasificación de nombres de lugares, sino una cartografía histórica de la memoria lingüística. En los topónimos se condensan siglos de historia, de encuentros y desencuentros, de imposiciones y resistencias. Son una forma de archivo territorial que conserva, a veces de forma involuntaria, los rastros de quienes habitaron y significaron la tierra antes y después de la colonización. Así, la toponimia se presenta no como un dato neutro, sino como una dimensión viva de la historia cultural y lingüística de Colombia y Bolivia.
+
+## **Temas**
+
+En el caso de Bolivia, los topónimos se agrupan principalmente en torno a temas relacionados con el entorno natural y la memoria histórica. Las categorías más frecuentes son “Paisaje / Características naturales” (86 casos), “Otro topónimo” (87) y “Época / Hecho histórico” (78), lo que refleja una fuerte conexión con el territorio y los acontecimientos del pasado. También se destacan los nombres de carácter espiritual(44), así como aquellos que hacen referencia a flora (18), apodos o nombres humanos (13) y fauna (9). En menor medida, se identifican temas vinculados a usos o actividades humanas, y la categoría lugar, con pocos casos registrados. 
+
+<div class="flourish-embed flourish-sankey" data-src="visualisation/24110959"></div>
+
+Los hallazgos de topónimos en Colombia muestran una variedad de temas que reflejan diferentes aspectos del país. La mayoría de los nombres encontrados corresponden a la categoría “Otro topónimo” con 185 casos, seguida por “Apodos / Nombres humanos” con 141, y “Paisaje / Características naturales” con 75\. También hay nombres relacionados con las “Comunidades” (45) y la “Flora” (28), lo que muestra la importancia de la cultura, la gente y la naturaleza en la forma de nombrar los lugares. Además, aparecen temas como “Espiritualidad” (77), “Usos / Actividades humanas” (34), y en menor cantidad “Fauna” (11), “Lugar” (8) y “Época / Hecho histórico” (10).   
+Tanto en Bolivia como en Colombia se revelan similitudes  en las limitaciones en la documentación y análisis de los nombres de lugar. Por ejemplo, en ambos países las categorías más frecuentes incluyen “Otros topónimos”, una etiqueta poco precisa que podría ocultar la riqueza y diversidad real de los topónimos, lo que señala que estos son datos aproximados que pueden dar pie a siguientes investigaciones. 
+
 Además, la menor presencia de temas como “Época / Hecho histórico” en Colombia, comparado con Bolivia, podría indicar diferencias en el reconocimiento o valorización de la memoria histórica en la toponimia, o simplemente limitaciones en las fuentes consultadas.  
 Aunque hay coincidencias temáticas, los datos sugieren que la investigación sobre toponimia aún debe profundizarse.
 
 ## **Predominancia de temas**
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/24110166"></div>
+
 En el marco del proyecto de mapeo toponímico de nombres de municipios en Bolivia y Colombia, se registraron un total de 953 topónimos. Los más frecuentes se agrupan en las categorías “Otro topónimo”, “Paisaje / Características naturales” y “Apodos / Nombres humanos”. La primera categoría agrupa principalmente aquellos municipios sobre los cuales no se encontró información confiable sobre su origen o significado. Sin embargo, también incluye casos particulares que, si bien cuentan con registros históricos o interpretaciones culturales, no se ajustan claramente a las otras categorías establecidas, por este motivo existe la necesidad de seguir investigando su trasfondo histórico y lingüístico.
 
 La segunda categoría reúne nombres de municipios que hacen referencia a elementos de la naturaleza, como ríos, montañas o paisajes característicos. Muchos de estos nombres nos recuerdan cómo eran esos lugares antes. Hoy en día, esos paisajes naturales a veces han sufrido cambios por el crecimiento de las ciudades o por los cambios en el uso del suelo para actividades agrícolas. Con el paso del tiempo y los cambios en la forma en que se usa la tierra incluso muchos nombres de lugares van desapareciendo (Ingelmo, 2010). Además, la toponimia también refleja cómo eran percibidos esos territorios en un momento determinado de la historia, es decir, cómo los veían las personas que los habitaban y que les dieron nombre. Los nombres de los lugares nos revelan qué elementos del entorno eran, o siguen siendo, significativos para las comunidades locales (Riesco, 2010). En ese sentido, a través de la toponimia podemos imaginar qué lugares formaban parte de la vida cotidiana de quienes vivieron antes en esos territorios. 
 
-Respecto a la tercera categoría, esta se encuentra representada por nombres propios y apellidos de hombres que corresponden a personas con cargos políticos.   También se encontraron algunos apodos o sustantivos: En Colombia, por ejemplo, se tiene el municipio “Briceño”, un derivado de Bricio, nombre de pila usado como apellido que se origina en la voz latina brictius y en el vocablo céltico britus que significa “fuerza”. O el municipio “Saboyá”, y una posible traducción de esta puede ser “gusto por las mantas”. 
+Respecto a la tercera categoría, esta se encuentra representada por nombres propios y apellidos de hombres que corresponden a personas con cargos políticos. También se encontraron algunos apodos o sustantivos: En Colombia, por ejemplo, se tiene el municipio “Briceño”, un derivado de Bricio, nombre de pila usado como apellido que se origina en la voz latina brictius y en el vocablo céltico britus que significa “fuerza”. O el municipio “Saboyá”, y una posible traducción de esta puede ser “gusto por las mantas”. 
 
 También se han hallado topónimos relacionados  a la época o algún hecho histórico con un y la espiritualidad o religión, esto demostrando cómo la historia y la cosmovisión espiritual ha influido fuertemente en la denominación de múltiples lugares. 
 
 Con menor frecuencia, pero igualmente significativos, se encuentran temas como la fauna, la propia lengua o literatura haciendo referencia a aspectos más culturales o simbólicos que pueden haber sido valorados para nombrar ciertos territorios. 
 
-# **CONCLUSIONES**
+# **Conclusiones**
 
-¿Por qué hacer un mapa de topónimos?
-
-Hay muchas razones detrás del deseo y el hecho de asumir la responsabilidad de elaborar un mapa de topónimos de manera independiente y autogestionada. A parte de ser una herramienta cartográfica, es un recurso para ayudar a las personas a entender el territorio que habitan desde diferentes dimensiones, ya sea lingüística, histórica, política o ambiental.
+¿Por qué hacer un mapa de topónimos? Hay muchas razones detrás del deseo y el hecho de asumir la responsabilidad de elaborar un mapa de topónimos de manera independiente y autogestionada. A parte de ser una herramienta cartográfica, es un recurso para ayudar a las personas a entender el territorio que habitan desde diferentes dimensiones, ya sea lingüística, histórica, política o ambiental.
 
 En primer lugar, representa una forma de preservar y visibilizar la riqueza y diversidad lingüística y cultural del territorio, ya que, como se puede evidenciar, muchos topónimos provienen de lenguas originarias que en muchas ocasiones resultan desplazadas por otras lenguas hegemónicas. Conocer de dónde vienen los nombres de los lugares que habitamos es reconocer nuestras raíces y conservar nuestra herencia intangible.
 
@@ -69,13 +101,15 @@ Por último, puede representar un apoyo a las demandas territoriales, pues para 
 
 Asimismo, haberlo hecho entre dos países, no tan lejanos, ni tan cercanos, demuestra la alta diversidad lingüística y étnica de la región, pues Bolivia y Colombia tienen decenas de pueblos y lenguas indígenas en diferentes condiciones de vitalidad, pero con la misma necesidad de buscar todas las formas posibles de ser nombradas y visibilizadas. 
 
-# **REFERENCIAS BIBLIOGRÁFICAS** 
+# **Referencias bibliográficas**
 
-* González, H. (1608). El vocabulario hispano-quechua.   
-* Laime, T.,  Layme, F., Plaza,  P. & Cazazola, F. (1997). Diccionario bilingüe quechua-castellano, castellano-quechua.   
-* Ingelmo, R. (2010). Localización y tratamiento de información histórica a través de la toponimia menor: utilidad del catastro de la riqueza rústica.      
-*  Riesco, P. (2010). Nombres en el paisaje: la Toponimia, fuente de conocimiento y aprecio del territorio.  
-* Von, B. (2017). Topónimos y cronología: notas sobre una puerta distinta al estudio del pasado.   
-* Williamson, B. (2023). Historical geographies of place naming: Colonial practices and beyond.
+#  
+
+- González, H. (1608). El vocabulario hispano-quechua.   
+- Laime, T.,  Layme, F., Plaza,  P. & Cazazola, F. (1997). Diccionario bilingüe quechua-castellano, castellano-quechua.   
+- Ingelmo, R. (2010). Localización y tratamiento de información histórica a través de la toponimia menor: utilidad del catastro de la riqueza rústica.      
+-  Riesco, P. (2010). Nombres en el paisaje: la Toponimia, fuente de conocimiento y aprecio del territorio.  
+- Von, B. (2017). Topónimos y cronología: notas sobre una puerta distinta al estudio del pasado.   
+- Williamson, B. (2023). Historical geographies of place naming: Colonial practices and beyond.
 
 [^1]:  Nombres en el paisaje: La toponimia, fuente de conocimiento y aprecio del territorio. Pascual Riesco Chueca.

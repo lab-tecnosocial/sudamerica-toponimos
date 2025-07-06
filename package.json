@@ -21,6 +21,7 @@
     "react-leaflet-cluster": "^2.1.0",
     "react-markdown": "^10.1.0",
     "react-router": "^7.4.1",
+    "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
     "yet-another-react-lightbox": "^3.21.8"
   },
