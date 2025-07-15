@@ -103,7 +103,6 @@ Asimismo, haberlo hecho entre dos países, no tan lejanos, ni tan cercanos, demu
 
 # **Referencias bibliográficas**
 
-#  
 
 - González, H. (1608). El vocabulario hispano-quechua.   
 - Laime, T.,  Layme, F., Plaza,  P. & Cazazola, F. (1997). Diccionario bilingüe quechua-castellano, castellano-quechua.   
