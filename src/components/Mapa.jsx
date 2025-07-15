@@ -247,7 +247,7 @@ export default function Mapa() {
                 center={[-8.700, -72.082]}
                 zoom={5}
                 minZoom={3}
-                maxZoom={18}
+                maxZoom={17}
                 maxBounds={southAmericaBounds}
                 maxBoundsViscosity={1.0}
                 style={{ height: '100%', width: '100%' }}>
