@@ -48,6 +48,19 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.legend-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.legend-item.selected {
+    background-color: rgba(51, 136, 255, 0.2);
+    border: 1px solid #3388ff;
 }
 
 .legend-color {
@@ -61,14 +74,11 @@
 
 .legend-label {
     font-size: 12px;
-    cursor: pointer;
-    /* Indica que es clickeable */
     transition: color 0.2s;
 }
 
-.legend-label:hover {
+.legend-item:hover .legend-label {
     color: #3388ff;
-    /* Color al pasar el mouse */
     text-decoration: underline;
 }
 

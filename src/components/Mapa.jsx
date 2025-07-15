@@ -132,12 +132,22 @@ export default function Mapa() {
         return ["Todos", ...temasArray];
     }, []);
 
-    // Función para filtrar por tema y familia
-    const handleFilter = (filters) => {
-        const { tema, familia } = filters;
+    // Función para aplicar ambos filtros con operación AND
+    const applyFilters = (tema, familia) => {
         const filtered = data.filter(item => {
+            // Filtro por tema
             const temaMatch = tema === "Todos" || item.tema === tema;
-            const familiaMatch = familia === "Todas" || item.familia === familia;
+
+            // Filtro por familia
+            let familiaMatch;
+            if (familia === "Todas") {
+                familiaMatch = true;
+            } else if (familia === 'Hibrido') {
+                familiaMatch = item.familia && item.familia.includes(',');
+            } else {
+                familiaMatch = item.familia === familia;
+            }
+
             return temaMatch && familiaMatch;
         });
         setFilteredData(filtered);
@@ -145,29 +155,15 @@ export default function Mapa() {
 
     // Función para filtrar por una familia específica desde la leyenda
     const handleFamilyClick = (family) => {
-        let filtered;
-
-        if (family === 'Hibrido') {
-            // Si es híbrido, filtramos solo los elementos que contengan coma
-            filtered = data.filter(item =>
-                item.familia && item.familia.includes(',')
-            );
-        } else {
-            // Para otras familias, filtramos exactamente por ese nombre de familia
-            filtered = data.filter(item => item.familia === family);
-        }
-
-        setFilteredData(filtered);
+        setSelectedFamilia(family);
+        applyFilters(selectedTema, family);
     };
 
     // Función para manejar el cambio de tema
     const handleTemaChange = (event) => {
         const tema = event.target.value;
         setSelectedTema(tema);
-
-        // Filtrar los datos según el tema seleccionado
-        const filtered = tema === "Todos" ? data : data.filter(item => item.tema === tema);
-        setFilteredData(filtered);
+        applyFilters(tema, selectedFamilia);
     };
 
     // Función para contar topónimos únicos
@@ -272,12 +268,15 @@ export default function Mapa() {
             <div className="map-legend">
                 <h4>Familias Lingüísticas</h4>
                 <div className="legend-counter">Mostrando: {countUniqueToponyms(filteredData)} topónimos</div>
-                <div className="legend-item" onClick={() => setFilteredData(data)}>
+                <div className={`legend-item ${selectedFamilia === "Todas" ? "selected" : ""}`} onClick={() => {
+                    setSelectedFamilia("Todas");
+                    applyFilters(selectedTema, "Todas");
+                }}>
                     <span className="legend-color" style={{ background: 'linear-gradient(45deg, #FF5733, #33FF57, #3357FF, #FF33A8)' }}></span>
                     <span className="legend-label">Todos</span>
                 </div>
                 {uniqueFamilies.map((family, index) => (
-                    <div key={index} className="legend-item" onClick={() => handleFamilyClick(family)}>
+                    <div key={index} className={`legend-item ${selectedFamilia === family ? "selected" : ""}`} onClick={() => handleFamilyClick(family)}>
                         <span
                             className="legend-color"
                             style={{ backgroundColor: FAMILY_COLORS[family] || FAMILY_COLORS['default'] }}
