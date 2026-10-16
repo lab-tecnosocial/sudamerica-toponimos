@@ -1,10 +1,10 @@
 Options -MultiViews
 RewriteEngine On
-RewriteBase /
 
 # Si el archivo o directorio existe, lo usa
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Si no existe, redirige todo al index.html
+# Si no existe, redirige todo al index.html de esta carpeta (sin RewriteBase, para que
+# funcione igual en el subdominio y en labtecnosocial.org/toponimos-sudamerica/)
 RewriteRule ^ index.html [QSA,L]

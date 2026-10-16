@@ -249,6 +249,7 @@ export default function Mapa() {
                 style={{ height: '100%', width: '100%' }}>
                 <TileLayer
                     url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    attribution='Imágenes &copy; <a href="https://www.esri.com/">Esri</a>, Maxar, Earthstar Geographics'
                 />
                 {filteredData.map((item, index) => {
                     const pointKey = `${item.municipio}-${item.lat}-${item.lon}`;
